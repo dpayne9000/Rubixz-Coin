@@ -1,11 +1,11 @@
-Rubixz Coin (RBZ) based on Litecoin
+Rubixz Coin (RBZ) based on Rubixzcoin
 =====================================
 
 
 What is Rubixz?
 ----------------
 
-Rubikz Coin is a new blockchain based on litecoin, a fork of the original Bitcoin. It
+Rubikz Coin is a new blockchain based on rubixzcoin, a fork of the original Bitcoin. It
 aims to support moving away from financial institutions while still supporting
 POC transactions. It's for people who value their anonymity, but also want to be able to make 
 payments via a payment processor just like any other money. We are developing a point of sale
@@ -51,7 +51,7 @@ Translations
 ------------
 
 We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to Litecoin periodically.
+Translations are converted to Rubixzcoin periodically.
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.
