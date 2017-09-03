@@ -1,4 +1,4 @@
-Rubixz Coin (RBZ) based on Rubixzcoin
+Rubixz Coin (RBZ) based on Litecoin
 =====================================
 
 
