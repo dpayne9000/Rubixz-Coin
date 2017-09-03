@@ -1,42 +1,23 @@
-Litecoin Core integration/staging tree
+Rubixz Coin (RBZ) based on Litecoin
 =====================================
 
-[![Build Status](https://travis-ci.org/litecoin-project/litecoin.svg?branch=master)](https://travis-ci.org/litecoin-project/litecoin)
 
-https://litecoin.org
-
-What is Litecoin?
+What is Rubixz?
 ----------------
 
-Litecoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Litecoin uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Litecoin Core is the name of open source
-software which enables the use of this currency.
+Rubikz Coin is a new blockchain based on litecoin, a fork of the original Bitcoin. It
+aims to support moving away from financial institutions while still supporting
+POC transactions. It's for people who value their anonymity, but also want to be able to make 
+payments via a payment processor just like any other money. We are developing a point of sale
+system that interacts directly with the blockchain, allowing the user to avoid having to transfer
+their coins to flat currency to make a payment.
 
-For more information, as well as an immediately useable, binary version of
-the Litecoin Core software, see [https://litecoin.org](https://litecoin.org).
+Is the world ready for Rubixz?
 
 License
 -------
 
-Litecoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see https://opensource.org/licenses/MIT.
-
-Development Process
--------------------
-
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/litecoin-project/litecoin/tags) are created
-regularly to indicate new official, stable release versions of Litecoin Core.
-
-The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-The developer [mailing list](https://groups.google.com/forum/#!forum/litecoin-dev)
-should be used to discuss complicated or controversial changes before working
-on a patch set.
-
-Developer IRC can be found on Freenode at #litecoin-dev.
+none.
 
 Testing
 -------
