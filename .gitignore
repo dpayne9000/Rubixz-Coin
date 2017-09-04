@@ -1,5 +1,6 @@
 *.tar.gz
-
+db4/
+db-4.8.30.NC/
 *.exe
 src/rubixzcoin
 src/rubixzcoind
