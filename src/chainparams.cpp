@@ -122,12 +122,12 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,48);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
-        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,176);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,43);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,7);
+        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,83);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,216);
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x06)(0x27)(0xD2)(0x1F).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x06)(0x27)(0xAA)(0xE1).convert_to_container<std::vector<unsigned char> >();
 
 
 
@@ -194,7 +194,7 @@ public:
         pchMessageStart[0] = 0xf4;
         pchMessageStart[1] = 0xd6;
         pchMessageStart[2] = 0x73;
-        pchMessageStart[3] = 0xc4;
+        pchMessageStart[3] = 0xc5;
         nDefaultPort = 1387;
         nPruneAfterHeight = 1000;
 
@@ -273,7 +273,7 @@ public:
         pchMessageStart[0] = 0xe4;
         pchMessageStart[1] = 0xd6;
         pchMessageStart[2] = 0x73;
-        pchMessageStart[3] = 0xd4;
+        pchMessageStart[3] = 0xd6;
         nDefaultPort = 1386;
         nPruneAfterHeight = 1000;
 
@@ -301,12 +301,12 @@ public:
             0
         };
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
-        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,58);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0xC1)(0x81)(0xB3).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0xC1)(0x63)(0x12).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,119);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,174);
+        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,69);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,267);
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0xE1)(0x71)(0xA4).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0xE1)(0x23)(0x42).convert_to_container<std::vector<unsigned char> >();
     }
 
     void UpdateBIP9Parameters(Consensus::DeploymentPos d, int64_t nStartTime, int64_t nTimeout)
