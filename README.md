@@ -17,7 +17,7 @@ Is the world ready for Rubixz?
 License
 -------
 
-none.
+MIT
 
 Testing
 -------
