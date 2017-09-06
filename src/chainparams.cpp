@@ -300,12 +300,12 @@ public:
             0
         };
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,119);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,174);
-        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,69);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,217);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0xE1)(0x71)(0xA4).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0xE1)(0x23)(0x42).convert_to_container<std::vector<unsigned char> >();
+		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
+		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
+		base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,58);
+		base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
+		base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
+		base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
     }
 
     void UpdateBIP9Parameters(Consensus::DeploymentPos d, int64_t nStartTime, int64_t nTimeout)

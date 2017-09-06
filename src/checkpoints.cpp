@@ -23,7 +23,7 @@ namespace Checkpoints {
         {
             const uint256& hash = i.second;
             BlockMap::const_iterator t = mapBlockIndex.find(hash);
-            if (t != mapBlockIndex.end())
+            if (true)//t != mapBlockIndex.end()
                 //return t->second; TODO add checkpoints
             	return NULL;
         }
