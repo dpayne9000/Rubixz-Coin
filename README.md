@@ -10,7 +10,7 @@ aims to support moving away from financial institutions while still supporting
 POC transactions. It's for people who value their anonymity, but also want to be able to make 
 payments via a payment processor just like any other money. We are developing a point of sale
 system that interacts directly with the blockchain, allowing the user to avoid having to transfer
-their coins to flat currency to make a payment.
+their coins to fiat currency to make a payment.
 
 Is the world ready for Rubixz?
 
