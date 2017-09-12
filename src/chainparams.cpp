@@ -92,7 +92,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1517356801; // January 31st, 2018
 
         // Deployment of SegWit (BIP141, BIP143, and BIP147)
-        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 0;
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1485561600; // January 28, 2017
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
@@ -117,10 +117,11 @@ public:
         genesis = CreateGenesisBlock(1504493457, 2589668903, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0xda861e15634e08b0d3db4188636068f8a1ed4a6027c8dfc68f9c324751d3bdb6"));
-        assert(genesis.hashMerkleRoot == uint256S("0x62145d7d34345e8e70bf05ad397382c2929781df31f5cd72c87d4a4d78f025f4"));
+        assert(genesis.hashMerkleRoot == uint256S("0x62145d7d34345e8e70bf05ad397382c2929781df31f5cd72c87d4a4d78f025f4"));\
 
+        vSeeds.push_back(CDNSSeedData("thrasher.io", "dnsseed.thrasher.io", true));
         vFixedSeeds.clear();
-        vSeeds.clear();
+        //vSeeds.clear();
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,43);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,7);
