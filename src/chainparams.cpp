@@ -119,8 +119,10 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0xda861e15634e08b0d3db4188636068f8a1ed4a6027c8dfc68f9c324751d3bdb6"));
         assert(genesis.hashMerkleRoot == uint256S("0x62145d7d34345e8e70bf05ad397382c2929781df31f5cd72c87d4a4d78f025f4"));\
 
-        vSeeds.push_back(CDNSSeedData("thrasher.io", "dnsseed.thrasher.io", true));
         vFixedSeeds.clear();
+                vSeeds.clear();
+                // nodes with support for servicebits filtering should be at the top
+                vSeeds.push_back(CDNSSeedData("rubixzaddress.org", "www.rubixzaddress.org"));
         //vSeeds.clear();
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,43);
@@ -141,7 +143,12 @@ public:
             boost::assign::map_list_of
             (  0, uint256S("0xda861e15634e08b0d3db4188636068f8a1ed4a6027c8dfc68f9c324751d3bdb6"))
             (  7, uint256S("0x3303f009c0496616f13b444e458d7971515f9fe5f607728f7b12ebcba140be13"))
-
+            (  14, uint256S("0x40a134aac37f89ff0c24be701074d3e9d488aa3d1fc050c27ea943c83d2baf78"))
+            (  34, uint256S("0x06dd334aec4fa169d37d5a9d8ee7c908e453151aa052105c343c972ec657d3f1"))
+            (  99, uint256S("0xe5fca3e067b96a1413635466d8a105491307d18fc0eb0ded37d4c6d29882f2d1"))
+            (  340, uint256S("0x7109ca610ad3fc8c518d923bbb9f7713c8000805adfce269beb9176adfbca5c9"))
+            (  2444, uint256S("0x4532c714b8a17f1136b7300f8a862d358f84d8bd19630f9798a1129386afb902"))
+            (  9100, uint256S("0x0fa740426bfc6a759b614221d5e57f8fb2d77e59bd97371efb376b0f045bede3"))
         };
 
         chainTxData = ChainTxData{
